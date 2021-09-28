@@ -11,7 +11,7 @@ div {
 
 header {
   color: white;
-  background-color: navy;
+  background-color: rgb(38, 38, 98);
   text-align: center;
   margin-top: 1rem;
   padding: 0.5rem;
@@ -38,7 +38,7 @@ h1 {
 footer {
   /* height: 80%; */
   color: white;
-  background-color: navy;
+  background-color: rgb(38, 38, 98);
   border-radius: 5px;
   text-align: center;
   font-size: medium;
