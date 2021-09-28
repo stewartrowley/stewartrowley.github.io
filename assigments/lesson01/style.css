@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Slab&display=swap');
+
+div {
+  margin: auto;
+  max-width: 60%;
+  max-height: 600%;
+  display: grid;
+  grid-template-columns: 1f 1f;
+  word-wrap: normal;
+}
+
+header {
+  height: 30%;
+  color: white;
+  background-color: navy;
+  text-align: center;
+  margin-top: 2%;
+}
+
+
+h2 {
+  font-size: 1.2em;
+  padding-top: 2%;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  margin: 1% 20% 0% 0%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.bodyGrid {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -21%;
+  padding-bottom: 5%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 1em;
+}
+
+footer {
+  height: 80%;
+  color: white;
+  background-color: navy;
+  border-radius: 5px;
+  text-align: center;
+  font-size: small;
+  margin-top: -2%;
+}
+
+#datetime {
+  margin-top: -1.5%;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  font-size: smaller;
+  padding-bottom: 4%;
+}
+
+.stewartPicture {
+  height: 350%;
+  width: 20%;
+  margin: -4% 2% 0% 0%;
+  grid-column: 2/3;
+}
+
+hr {
+  margin-right: 22%;
+}
+
+.bodyGrid a {
+  color: navy;
+}
+
+#locate a {
+  color: white;
+}
