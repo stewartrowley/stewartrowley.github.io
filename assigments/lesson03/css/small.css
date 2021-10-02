@@ -1,0 +1,14 @@
+@media only screen and (min-width: 300px) {
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    body {
+        display: flex;
+        align-items: flex-start;
+        padding: 0px;
+    }
+}

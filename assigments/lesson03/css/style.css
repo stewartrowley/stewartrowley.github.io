@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* .container {
+    max-width: 1300px;
+    overflow: hidden;
+} */
+
+
+
+.logo {
+    width: 80px;
+    margin-top: -30px;
+}
+
+nav {
+	background-color: #2C423F;
+	box-shadow: 0 2px 15px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80em;
+    height: 5em;
+    overflow: hidden;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    margin-top: 30px;
+    padding: 0px;
+}
+nav ul li a {
+	color: #C5C5C5;
+	padding: 2rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+    background-color: #C5C5C5;
+    color: #2C423F;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+}
+.purpose {
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+a {
+    font-family: 'Merriweather', serif;
+}
+
+
+
