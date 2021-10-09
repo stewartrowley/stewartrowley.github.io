@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    margin: -10px;
+    height: 80px;
+  /* justify-content: flex-start; */
+  background-color: navy;
+  box-shadow: 0 2px 15px gray;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  padding-top: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+
+}
+
+nav a:hover {
+  background-color: #c5c5c5;
+  color: #2c423f;
+}
+
+
+body {
+    height: 300px;
+}
+
+
+footer{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    background-color: navy;
+    margin-bottom: 0;
+    
+}
