@@ -189,6 +189,10 @@ footer {
     top: 22em;
     left: 24em;
     background-color: white;
+    border-radius: 10px;
+    background: rgb(44,66,63);
+    background: linear-gradient(90deg, rgba(44,66,63,1) 0%, rgba(197,197,197,1) 0%, rgba(76,91,97,1) 100%);
+    color: black;
   }
 
   .rexArticle {
