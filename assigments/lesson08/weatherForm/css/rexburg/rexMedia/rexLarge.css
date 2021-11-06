@@ -1,0 +1,27 @@
+@media only screen and (min-width: 990px) {
+
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  .rexburgForecast {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .summary {
+    top: 25em;
+    left: 32em;
+    display: absolute;
+  }
+}
