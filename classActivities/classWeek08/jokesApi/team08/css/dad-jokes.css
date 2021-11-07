@@ -1,0 +1,24 @@
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: static;
+    width: 70%;
+}
+
+#dad-joke {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    left: 10rem;
+    top: 14rem;
+
+}
+
+button {
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+}
