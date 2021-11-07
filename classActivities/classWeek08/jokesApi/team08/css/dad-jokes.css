@@ -5,20 +5,20 @@
 
 img {
     position: static;
-    width: 70%;
+    width: 30%;
 }
 
 #dad-joke {
     position: relative;
     text-align: center;
-    width: 30%;
-    left: 10rem;
-    top: 14rem;
+    width: 20%;
+    left: 28rem;
+    top: 11rem;
 
 }
 
 button {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    bottom: 12rem;
+    left: 33rem;
 }
