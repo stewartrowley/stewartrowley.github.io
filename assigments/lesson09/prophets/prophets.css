@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  margin: 0 auto;
+  background-color: #003366;
+  font-family: 'Roboto', sans-serif;
+}
+
+header,
+h1 {
+  background-color: #C0C0C0;
+  color: #003366;
+  font-size: 2rem;
+  padding: 1rem 0;
+  margin-top: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+div.cards {
+  margin-top: 4em;
+  text-align: center;
+}
+
+section {
+  background-color: #C0C0C0;
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin: 1rem auto;
+  color: #003366;
+}
+h4 {
+  margin: 0 auto;
+}
+img {
+  width: 45%;
+  height: 200px;
+  margin: 10px auto 15px auto;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #003366;
+    background-color: #C0C0C0;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header {
+    font-size: 2em;
+  }
+
+  section {
+    height: 500px;
+  }
+  img {
+    width: 75%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
