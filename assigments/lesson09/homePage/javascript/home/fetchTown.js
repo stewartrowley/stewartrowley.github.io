@@ -44,13 +44,13 @@ fetch(requestURL)
             fishHavenMotto.innerHTML = towns[i + 2].motto;
 
             let fishHavenFounded = document.querySelector('.fishHavenFounded');
-            fishHavenFounded.innerHTML = `Year Founded: ${towns[i + 6].yearFounded}`;
+            fishHavenFounded.innerHTML = `Year Founded: ${towns[i + 2].yearFounded}`;
 
             let fishHavenPopulation = document.querySelector('.fishHavenPopulation');
-            fishHavenPopulation.innerHTML = `Population: ${towns[i + 6].currentPopulation}`;
+            fishHavenPopulation.innerHTML = `Population: ${towns[i + 2].currentPopulation}`;
 
             let fishHavenRainfall = document.querySelector('.fishHavenRainfall');
-            fishHavenRainfall.innerHTML = `Annual Rain Fall: ${towns[i + 6].averageRainfall}`;
+            fishHavenRainfall.innerHTML = `Annual Rain Fall: ${towns[i + 2].averageRainfall}`;
 
             let fishHavenPhoto = towns[i + 2].photo;
             document.getElementById('fishHavenPhoto').setAttribute('src', fishHavenPhoto);
@@ -63,13 +63,13 @@ fetch(requestURL)
             sodaSpringsMotto.innerHTML = towns[i].motto;
 
             let sodaSpringsFounded = document.querySelector('.sodaSpringsFounded');
-            sodaSpringsFounded.innerHTML= `Year Founded: ${towns[i + 6].yearFounded}`;
+            sodaSpringsFounded.innerHTML= `Year Founded: ${towns[i].yearFounded}`;
 
             let sodaSpringsPopulation = document.querySelector('.sodaSpringsPopulation');
-            sodaSpringsPopulation.innerHTML = `Population: ${towns[i + 6].currentPopulation}`;
+            sodaSpringsPopulation.innerHTML = `Population: ${towns[i].currentPopulation}`;
 
             let sodaSpringsRainfall = document.querySelector('.sodaSpringsRainfall');
-            sodaSpringsRainfall.innerHTML = `Annual Rain Fall: ${towns[i + 6].averageRainfall}`;
+            sodaSpringsRainfall.innerHTML = `Annual Rain Fall: ${towns[i].averageRainfall}`;
 
             let sodaSpringsPhoto = towns[i].photo;
             document.getElementById('sodaSpringsPhoto').setAttribute('src', sodaSpringsPhoto);
