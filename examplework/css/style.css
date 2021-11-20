@@ -1,0 +1,67 @@
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: black;
+    position: sticky;
+}
+
+.direction  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  padding: .75em;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  color: #c5c5c5;
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.25rem;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-weight: 700;
+  transition: 0.5s;
+}
+  
+.navigation a:hover {
+  color: White;
+  background-color: navy;
+}
+
+.responsive li {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    .rexburgForecast {
+      display: flex;
+      justify-content: center;
+    }
+}
+  

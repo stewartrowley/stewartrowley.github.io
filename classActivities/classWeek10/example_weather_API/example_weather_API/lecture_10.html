@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="lecture_10.css" />
+  <title>Open Weather</title>
+</head>
+
+<body>
+  <div class="content">
+    <h2 id="title"></h2>
+    <div id="data" class="flex-box"></div>
+    <h2 id="cityname"></h2>
+    <table>
+      <thead id="table_head">
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Temperature</th>
+          <th>Feels Like</th>
+          <th>Temp Min</th>
+          <th>Temp Max</th>
+          <th>humidity</th>
+          <th>Weather</th>
+        </tr>
+      </thead>
+      <tbody id="data_table">
+        <!-- Our JS file will populate the table body -->
+      </tbody>
+    </table>
+  </div>
+  <hr />
+  <div class="flex-box">
+    <div class="item-form">
+      <form name="classform">
+        <label for="city">Enter the name of a City</label><br />
+        <input type="text" class="" id="city" name="city" /><br />
+        <label for="apikey">API Key
+          <a href="https://home.openweathermap.org/api_keys">Need key?</a></label><br />
+        <input type="text" class="" id="apikey" name="apikey" /><br />
+        <input type="submit" value="Submit" id="submit-btn" />
+      </form>
+    </div>
+  </div>
+
+  <script src="lecture_10.js"></script>
+</body>
+
+</html>
