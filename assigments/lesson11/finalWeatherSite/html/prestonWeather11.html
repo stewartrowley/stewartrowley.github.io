@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/preston/prestonStyle.css">
+    <link rel="stylesheet" href="../css/preston/prestonMedia/prestonSmall.css">
+    <link rel="stylesheet" href="../css/preston/prestonMedia/prestonMedium.css">
+    <link rel="stylesheet" href="../css/preston/prestonMedia/prestonLarge.css">
+    <script src="../javascript/preston/openWeather.js" defer></script>
+    <script src="../javascript/preston/prestonscript.js" defer></script>
+    <script src="../javascript/preston/windChill.js" defer></script>
+    <title>Winter Weather</title>
+</head>
+
+<header>
+    <img src="../images/winterIcon2.png" alt="Weather Logo">
+    <div class="head">
+        <h1>Winter Weather</h1>
+        <p>Where the cold weather is!</p>
+    </div>
+    <div id="banner">
+        Saturday = Rexburg Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+</header>
+
+<nav>
+    <ul class="navigation">
+        <li class="direction"><a href="#">Menu</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="prestonWeather11.html">Preston</a></li>
+        <li><a href="fishhavenWeather11.html">Fish Haven</a></li>
+        <li><a href="sodaSpringsWeather11.html">Soda Springs</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <body>
+        <h2 class="townTitle">Preston Idaho Weather</h2>
+        <div class="rexburgForecast">
+            <div class="figured">
+                <figure class="myPhoto">
+                    <img src="../finalimage/prestonweather.jpg" alt="rexTown" sizes="50vw" 
+                    srcset="../finalimage/preston-300.jpg 300w,
+                    ../finalimage/preston-500.jpg 500w,
+                    ../finalimage/preston-800.jpg 800w,
+                    ../finalimage/preston-1100.jpg 1100w">
+                    <figcaption>Preston Town</figcaption>
+                </figure>
+            </div>
+            <div class="summary">
+            </div>
+            <div id="today"></div>
+        </div>
+        <div id="today"></div>
+        <div id="fiveDay">
+            <div class="day"></div>
+            <div class="day"></div>
+            <div class="day"></div>
+            <div class="day"></div>
+            <div class="day"></div>
+        </div>
+
+        <div class="rexArticle">
+            <div class="artRex">
+                <h2>What is weather in Preston, Idaho like?</h2>
+                <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper erat turpis, ultrices fringilla eros ornare ac. 
+                    Aenean nec lectus egestas, posuere sapien a, iaculis urna. Maecenas hendrerit ultrices orci, sed varius arcu feugiat non. 
+                    Sed dignissim ex a pretium egestas. Sed interdum tellus velit, et vestibulum diam sollicitudin ut. Nam fermentum quis est a commodo. 
+                    Curabitur tincidunt consequat dui ut bibendum. Duis consectetur interdum risus non hendrerit. <br>
+
+                        <br>Pellentesque lobortis, nunc vel feugiat tempor, sem metus porttitor massa, id mattis massa sem quis nulla. 
+                    Integer ut pretium odio, quis gravida est. Fusce ut nisi turpis. Proin rutrum fermentum sagittis. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Etiam ante lacus, suscipit ac ornare rhoncus, efficitur in ex. Pellentesque ligula enim, 
+                    lacinia lobortis elit vel, feugiat tincidunt nulla. <br>
+                        
+                        <br>Proin risus est, laoreet ut ullamcorper non, blandit luctus mauris. Cras faucibus suscipit massa, sit amet ultricies nibh posuere ultrices. Integer nec posuere nisi, at tristique nisl. 
+                    Integer mollis elit leo, ut vehicula dolor aliquet ut. Nam id elit mauris. Phasellus aliquet id nisl nec mollis. 
+                    Praesent molestie quam eu lectus euismod ultrices. Integer ornare, tellus id blandit vehicula, magna diam cursus dolor, 
+                    sit amet aliquam felis neque sagittis tellus. Integer ac imperdiet massa, ac scelerisque turpis.
+                </p>
+            </div>
+            <div class="artDiv">
+                <img class="articleImg" src="../images/articlepics/prestonartfinal.png" alt="snow">
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </body>
+
+
+
+    <footer class="ending">
+        <img class="rexMap" src="../images/maps/prestonmap.jpg" alt="map">
+        <div>
+            <p id="locate">
+                &#169;
+                Winter Weather <br>
+                Preston, Idaho 83263
+            </p>
+            <p id="datetime">
+            999-999-9999 <br>
+            row16006@byui.edu <br>
+            Last Updated: <span id="timeDate"></span> 
+            </p>
+        </div>
+    </footer>
+</main>
+</html>

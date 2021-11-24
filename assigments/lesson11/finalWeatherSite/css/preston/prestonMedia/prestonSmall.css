@@ -1,0 +1,55 @@
+@media only screen and (min-width: 375px) {
+    
+  
+
+  .rexburgForecast {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .summary {
+        height: 180px;
+        width: 150px;
+        list-style-type: none;
+        font-size: .8em;
+        background-color: white;
+        border-radius: 10px;
+        background: rgb(44,66,63);
+        background: linear-gradient(90deg, rgba(44,66,63,1) 0%, rgba(44, 66, 63, 1) 0%, rgba(76,91,97,1) 100%);
+        color: white;
+        line-height: .25em;
+        text-align: center;
+      }
+    
+    #fiveDay {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem;
+    }
+
+    .rexArticle {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #414141;
+        color: #c5c5c5;
+        margin: 30px 30px ;
+      }  
+    
+      .artDiv {
+        padding-top: 2rem;
+        padding-left: 3.5rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+      
+      .artRex {
+       grid-column: 1/2;
+        grid-row: 2/3;
+        text-indent: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      }
+    
+}
