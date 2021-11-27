@@ -50,6 +50,10 @@
     display: absolute;
   }
 
+  .events {
+    margin: 0 12rem 5rem 12rem;
+  }
+
   .rexArticle {
     display: grid;
     grid-template-columns: auto auto;
