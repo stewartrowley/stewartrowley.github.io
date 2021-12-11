@@ -1,5 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
 
-header{
-   
+.logoTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #F0A822;
+  text-align: center; font-size: 2rem;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* navigation */
+nav {
+  background-color: #2E294E;
+  padding-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px gray;
+}
+
+.direction  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li a {
+  background: linear-gradient(90deg, transparent, #F0A822, transparent) bottom / var(--d, 0) 8px no-repeat;
+  transition: 0.5s;
+}
+
+.navigation {
+  list-style: none;
+  padding: .75em;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  color: #F5F0E6;
+  display: none;
+}
+.navigation a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: large;
+  transition: 0.5s;
+  padding-bottom: 10px;
+}
+
+.navigation a:hover {
+  color: #F5F0E6;
+  /* background-color: #F0A822; */
+  border-radius: 5px;
+  --d: 50%;
+}
+
+.responsive li {
+  display: block;
+}
+
+#welcome {
+  text-align: center;
+  color: #2E294E;
+  padding: 2rem 0 2rem 0;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0rem 2rem 0rem 2rem;
+  align-items: center;
+}
+
+.action {
+  text-align: center;
+  border-radius: 10px;
+  border: solid #2E294E 10px;
+  background-color: #F0A822;
+  padding: 1rem 5rem 2rem 5rem;
+}
+
+.cozy {
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-size: large;
+}
+
+.reserve {
+  text-decoration: none;
+  color: #F5F0E6;
+  background-color: #2E294E;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.banner-img {
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  /* margin: 0 2rem 0 2rem; */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F5F0E6;
+}
+
+.art-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem;
+  border: solid #2E294E 10px;
+  border-radius: 10px;
+  color: #2E294E;
+  background-color: #F0A822;
+}
+
+.article-img {
+  grid-column: 1/2;
+  margin: 3rem;
+  border-radius: 10px;
+}
+
+.article {
+  grid-column: 2/3;
+  padding-top: 2rem;
+}
+
+.headrex {
+  padding:1rem 0 0 6rem ;
+}
+
+footer {
+  text-align: center;
+  background-color: #2E294E;
+  color: #F5F0E6;
+  padding: 1rem 0 1rem  0;
+  border-radius: 10px;
 }

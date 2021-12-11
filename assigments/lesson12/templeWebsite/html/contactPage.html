@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contactPage/style.css">
+    <link rel="stylesheet" href="../css/mediaQuery/small.css">
+    <link rel="stylesheet" href="../css/mediaQuery/medium.css">
+    <link rel="stylesheet" href="../css/mediaQuery/large.css">
+    <script src="../js/contacPage/script.js" defer></script> 
+    <title>Temple Inn&Suites</title>
+
+</head>
+<main>
+    <header>
+        <nav>
+            <div class="logoTitle">
+                <img class="logo" src="../images/pocatello_idaho_temple_icon.jpg" alt="logo">
+                <h1 class="title">Temple Inn & Suites</h1>
+            </div>
+            <ul class="navigation">
+                <div class="rnav">
+                    <li class="direction"><a href="#"><img src="https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png"/></a></li>
+                </div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contactPage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+
+        <div class="container">
+            <h1 class="applicant-title" id="top-title">Contact Information</h1>
+            <form method="get" action="thanks.html">
+                <fieldset class="applicant">
+                    <label class="apply" id="fname">First Name<input type="text" name="fistname" required></label>
+                    <label class="apply" id="lname">Last Name<input type="text" name="lastname" required></label>
+                    <label class="apply" id="email">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="apply" id="phone">Phone Number<input type="tel" name="phone"placeholder="123657342"></label>
+                </fieldset>
+                <div class="textboxed">
+                    <label class="applied"id="message">Questions or concerns<textarea name="comment" class="applied" cols="30" rows="10"></textarea></label>
+                </div>
+                <div class="subimission">
+                    <input type="submit" value="Send" class="submitBtn">
+                </div>
+            </form>
+            
+            <div class="info-contact">
+                <div class="content-box">
+                    <h2>Our Information</h2>
+                    <p>999-999-9999</p>
+                    <p>someone@gmail.com</p>
+                    <h3>Temple Inn&Suites</h3>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethseda, MD 20814</p>
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284568!2d-77.09772048556266!3d38.98325594948547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1639152317021!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </body>
+    
+    <footer>
+        <p id="locate">&#169; 2021 | Stewart M. Rowley | Washington </p>
+        <p id="datetime">Last Updated: <span id="timeDate"></span></p>
+    </footer>
+</main>
+</html>

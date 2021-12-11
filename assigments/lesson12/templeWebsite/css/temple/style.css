@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+.logoTitle {
+    display: flex;
+    justify-content: center;
+  }
+  
+.title {
+  color: #F0A822;
+  text-align: center; font-size: 2rem;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+/* .logo {
+  border-radius: 10px;
+} */
+/* navigation */
+nav {
+  background-color: #2E294E;
+  padding-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px gray;
+}
+
+.direction  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li a {
+  background: linear-gradient(90deg, transparent, #F0A822, transparent) bottom / var(--d, 0) 8px no-repeat;
+  transition: 0.5s;
+}
+
+.navigation {
+  list-style: none;
+  padding: .75em;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  color: #F5F0E6;
+  display: none;
+}
+.navigation a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: large;
+  transition: 0.5s;
+  padding-bottom: 10px;
+}
+
+.navigation a:hover {
+  color: #F5F0E6;
+  /* background-color: #F0A822; */
+  border-radius: 5px;
+  --d: 50%;
+}
+
+.responsive li {
+  display: block;
+}
+
+
+.mainBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 3rem 0 3rem;
+}
+
+.titlePage {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  padding: 2rem 0 2rem 0;
+  color: #2E294E;
+  border: solid #2E294E 10px;
+  border-radius: 10px;
+  background-color: #F0A822;
+
+}
+.photo {
+    border-radius: 10px;
+}
+
+.summary, .summary2, .summary3, .summary4 {
+    color: #F0A822;
+    background: rgb(44,66,63);
+    background: linear-gradient(90deg, rgba(44,66,63,1) 0%, rgba(46,41,78,1) 0%, rgba(76,91,97,1) 100%);
+    border-radius: 10px;
+    margin: 2rem 5rem 2rem 5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.rexBox, .fallsBox, .kanBox, .oklBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #2E294E 10px;
+    border-radius: 10px;
+    color: #2E294E;
+    background-color: #F0A822;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.titleHead {
+    color: #2E294E;
+    font-weight: 600;
+}
+
+.rexBox {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 2rem 1rem 2rem 0;
+
+}
+
+.fallsBox {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 2rem 0 2rem 1rem;
+
+}
+
+.kanBox {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 1rem 1rem 3rem 0;
+}
+
+.oklBox {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 1rem 0 3rem 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #2E294E;
+  color: #F5F0E6;
+  padding: 1rem 0 1rem  0;
+  border-radius: 10px;
+}

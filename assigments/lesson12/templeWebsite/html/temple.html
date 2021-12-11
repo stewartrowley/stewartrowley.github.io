@@ -4,11 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/temple/temple.css">
-    <script src="../js/temple/script.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/temple/style.css">
+    <link rel="stylesheet" href="../css/mediaQuery/small.css">
+    <link rel="stylesheet" href="../css/mediaQuery/medium.css">
+    <link rel="stylesheet" href="../css/mediaQuery/large.css">
+    <script src="../js/temple/script.js" defer></script> 
+    <script src="../js/temple/templeAPI.js" defer></script>
+    <script src="../js/temple/openWeather.js"></script>
+    <title>Temple Inn&Suites</title>
+
 </head>
-<body>
+<main>
+    <header>
+        <nav>
+            <div class="logoTitle">
+                <img class="logo" src="../images/pocatello_idaho_temple_icon.jpg" alt="logo">
+                <h1 class="title">Temple Inn & Suites</h1>
+            </div>
+            <ul class="navigation">
+                <div class="rnav">
+                    <li class="direction"><a href="#"><img src="https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png"/></a></li>
+                </div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contactPage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
     
-</body>
+    <body>
+        <div class="mainBox">
+            <h1 class="titlePage">Temples</h1>
+            <div class="rexBox">
+                <h2 class="rexburgName"></h2>
+                <img class="photo" src="../images/temples/rexburgIdahoTempleGallery.jpg" alt="Rexburg-Temple">
+                <div>
+                    <div class="summary"></div>
+                    <h3 class="titleHead">Phone Number</h3>
+                    <p class="rexburgPhone"></p>
+                    <h3 class="titleHead">Address</h3>
+                    <p class="rexburgAddress"></p>
+                    <h3 class="titleHead">Services</h3>
+                    <p class="rexburgServices"></p>
+                    <h3 class="titleHead">History</h3>
+                    <p class="rexburgHistory"></p>
+                    <h3 class="titleHead">Fun Facts</h3>
+                    <p class="rexburgFunFact1"></p>
+                    <p class="rexburgFunFact2"></p>
+                    <p class="rexburgFunFact3"></p>
+                </div>
+            </div>
+
+            <div class="fallsBox">
+                <h2 class="idahoFallsName"></h2>
+                <img class="photo" src="../images/temples/idahoFallsTempleGallery.jpg" alt="Idaho Falls-Temple">
+                <div>
+                    <div class="summary2"></div>
+                    <h3 class="titleHead">Phone Number</h3>
+                    <p class="idahoFallsPhone"></p>
+                    <h3 class="titleHead">Address</h3>
+                    <p class="idahoFallsAddress"></p>
+                    <h3 class="titleHead">Services</h3>
+                    <p class="idahoFallsServices"></p>
+                    <h3 class="titleHead">History</h3>
+                    <p class="idahoFallsHistory"></p>
+                    <h3 class="titleHead">Fun Facts</h3>
+                    <p class="idahoFallsFunFact1"></p>
+                    <p class="idahoFallsFunFact2"></p>
+                    <p class="idahoFallsFunFact3"></p>
+                </div>
+            </div>
+
+            <div class="kanBox">
+                <h2 class="kansasCityName"></h2>
+                <img class="photo" src="../images/temples/kansasCityTempleGallery.jpg" alt="Kansas City-Temple">
+                <div>
+                    <div class="summary3"></div>
+                    <h3 class="titleHead">Phone Number</h3>
+                    <p class="kansasCityPhone"></p>
+                    <h3 class="titleHead">Address</h3>
+                    <p class="kansasCityAddress"></p>
+                    <h3 class="titleHead">Services</h3>
+                    <p class="kansasCityServices"></p>
+                    <h3 class="titleHead">History</h3>
+                    <p class="kansasCityHistory"></p>
+                    <h3 class="titleHead">Fun Facts</h3>
+                    <p class="kansasCityFunFact1"></p>
+                    <p class="kansasCityFunFact2"></p>
+                    <p class="kansasCityFunFact3"></p>
+                </div>
+            </div>
+
+            <div class="oklBox">
+                <h2 class="oklahomaCityName"></h2>
+                <img class="photo" src="../images/temples/oklahomaCityTempleGallery.jpg" alt="Oklahoma City-Temple">
+                <div>
+                    <div class="summary4"></div>
+                    <h3 class="titleHead">Phone Number</h3>
+                    <p class="oklahomaCityPhone"></p>
+                    <h3 class="titleHead">Address</h3>
+                    <p class="oklahomaCityAddress"></p>
+                    <h3 class="titleHead">Services</h3>
+                    <p class="oklahomaCityServices"></p>
+                    <h3 class="titleHead">History</h3>
+                    <p class="oklahomaCityHistory"></p>
+                    <h3 class="titleHead">Fun Facts</h3>
+                    <p class="oklahomaCityFunFact1"></p>
+                    <p class="oklahomaCityFunFact2"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <footer>
+        <p id="locate">&#169; 2021 | Stewart M. Rowley | Washington </p>
+        <p id="datetime">Last Updated: <span id="timeDate"></span></p>
+    </footer>
+</main>
 </html>

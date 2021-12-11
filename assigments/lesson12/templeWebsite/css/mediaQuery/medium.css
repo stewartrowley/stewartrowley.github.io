@@ -1,0 +1,107 @@
+@media only screen and (min-width: 600px) {
+
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    
+    }
+
+    nav {
+        padding-top: 2rem;
+    }
+
+    .logoTitle {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+      display: initial;
+      border-radius: 100%;
+      margin: 1rem 1rem;
+    
+      box-shadow: 0 2px 15px #2E294E;
+    }
+
+
+    /* Home Page */
+    .art-container {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem;
+    }
+    
+    .article-img {
+      width: 15rem;
+    }
+
+    .headrex {
+      padding:1rem 0 0 6rem ;
+    }
+
+
+    /* Temples Page */
+    .mainBox {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .titlePage {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    /* Contact Us */
+    form label.applied textarea {
+      width: 22rem;
+    }
+
+    .content-box {
+      padding: 1rem 3rem 1rem 3rem;
+    }
+    
+    .map {
+      width: 80%;
+      margin: 2rem 0 2rem 0;
+    }
+
+    .container {
+      margin: 3rem 3rem 3rem 3rem;
+    }
+
+  /* reception & missionary services */
+    .servicesImg {
+      width: 200rem;
+    }
+
+    .servicesContainer {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 10rem 2rem 5rem;
+      padding: 4rem 0 4rem 0;
+      padding: 0 15rem;
+    }
+
+    .servicesButton {
+      margin: 1rem;
+      width: 10rem;
+    }
+/* 
+    response */
+    .response-box {
+      margin: 3rem 5rem;
+    }
+
+}

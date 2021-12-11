@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reservations/style.css">
+    <link rel="stylesheet" href="../css/mediaQuery/small.css">
+    <link rel="stylesheet" href="../css/mediaQuery/medium.css">
+    <link rel="stylesheet" href="../css/mediaQuery/large.css">
+    <script src="../js/reservation/script.js" defer></script> 
+    <title>Temple Inn&Suites</title>
+
+</head>
+<main>
+    <header>
+        <nav>
+            <div class="logoTitle">
+                <img class="logo" src="../images/pocatello_idaho_temple_icon.jpg" alt="logo">
+                <h1 class="title">Temple Inn & Suites</h1>
+            </div>
+            <ul class="navigation">
+                <div class="rnav">
+                    <li class="direction"><a href="#"><img src="https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png"/></a></li>
+                </div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contactPage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+        <div class="reservation-box">
+            <h1 class="customer-title">Reserve Today!</h1>
+            <div class="hotel-type">
+                <img class="hotel" src="../images/services/hotel-room.jpg" alt="hotel">
+            </div>
+            <form method="get" action="scheduled.html">
+                <fieldset class="register">
+                    <label class="reserve" id="fname">First Name <input type="text" name="firstname" required></label>
+                    <label class="reserve" id="lname">Last Name <input type="text" name="lastname" required></label>
+                    <label class="reserve" id="email">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="reserve" id="phone">Phone Number <input type="tel" name="phone" placeholder="123657342" required></label>
+                    
+
+                    <label class="resereve" id="locate">Location
+                        <select name="place" required>
+                            <option>Select Location</option>
+                            <option value="Bethseda, MD">Bethseda, MD</option>
+                            <option value="Fort Worth, TX">Fort Worth, TX</option>
+                            <option value="Boise, ID">Boise, Idaho</option>
+                            <option value="Denver, CO">Denver, CO</option>
+                            <option value="Seattle, WA">Seattle, WA</option>
+                        </select>
+                    </label> 
+
+                    <label class="reserve">Reservation Date<input type="date" name="date" required></label>
+                
+
+                    <label class="reserve">Room Type
+                       <select name="region" required>
+                           <option>Select Room</option>
+                           <option value="King Deluxe Suite">King Deluxe Suite</option>
+                           <option value="Queen Deluxe Suite">Queen Deluxe Suite</option>
+                           <option value="Double King Suite">Double King Suite</option>
+                           <option value="Double Queen Suite">Double Queen Suite</option>
+                        </select>
+                    </label>
+       
+                    <label for="quantity">Number of Rooms:<input class="apply" type="number" id="quantity" name="quantity" min="1" max="8" required></label>
+
+                </fieldset>
+                <div class="subimission">
+                    <input type="submit" value="Reserve" class="submitBtn">
+                </div>
+            </form>
+        </div>
+    </body>
+    
+    <footer>
+        <p id="locate">&#169; 2021 | Stewart M. Rowley | Washington </p>
+        <p id="datetime">Last Updated: <span id="timeDate"></span></p>
+    </footer>
+</main>
+</html>

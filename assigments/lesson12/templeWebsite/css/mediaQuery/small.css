@@ -1,0 +1,162 @@
+@media only screen and (min-width: 375px) {
+    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    nav ul li a {
+        background: linear-gradient(90deg, transparent, #F0A822, transparent) bottom / var(--d, 0) 8px no-repeat;
+        transition: 0.5s;
+      }
+
+    .navigation a:hover {
+      color: #F5F0E6;
+      /* background-color: #F0A822; */
+      border-radius: 5px;
+      --d: 50%;
+    }
+
+    nav {
+        padding-top: 0rem;
+    }
+
+    .rnav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .direction {
+        align-self: center;
+    }
+
+    .logoTitle {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    /* Temple Page */
+    .mainBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo {
+        width: 90%;
+    }
+    
+    .summary, .summary2, .summary3, .summary4 {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .rexBox, .fallsBox, .kanBox, .oklBox {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .titlePage {
+        text-align: center;
+    }
+
+    /* Home Page */
+
+    .art-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+    }
+    
+    .article-img {
+      width: 15rem;
+    }
+
+    .article {
+        text-align: center;
+        padding: 0 2rem 2rem 2rem;
+    }
+    
+    .banner-img {
+        width: 60%;
+    }
+
+    .headrex {
+      padding:1rem 0 0 4rem ;
+    }
+
+    /* reception & missionary services */
+    .servicesImg {
+        width: 20rem;
+    }
+    .servicesContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 1rem 2rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+      }
+
+      /* contact us */
+    .container {
+      margin: 3rem 2rem 3rem 2rem;
+    }
+    .applicant {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .textboxed {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5rem;
+    }
+
+    form label.applied textarea {
+        width: 18rem;
+      }
+
+    .info-contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .content-box {
+        padding: 1rem;
+    }
+
+    .map {
+      width: 80%;
+      margin: 2rem 0 2rem 0;
+    }
+
+    /* reservation */
+
+    .hotel {
+        width: 80%;
+      }
+
+    .reservation-box {
+        margin: 3rem 3rem 3rem 3rem;
+        padding-right: 1rem;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  /* 
+    response */
+    .response-box {
+      margin: 3rem 2rem;
+    }
+
+}

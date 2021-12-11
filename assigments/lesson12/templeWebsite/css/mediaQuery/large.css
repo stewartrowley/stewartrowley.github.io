@@ -1,0 +1,162 @@
+@media only screen and (min-width: 990px) {
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+  
+  }
+  .logo {
+    display: initial;
+    border-radius: 100%;
+    margin: 1rem 1rem;
+  }
+  nav {
+      padding-top: 2rem;
+  }
+  /* Temple Page */
+  .mainBox {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: 0 3rem 0 3rem;
+  }
+  .rexBox, .fallsBox, .kanBox, .oklBox {
+     margin: 2rem 2rem 2rem; 
+  }
+  .titlePage {
+    text-align: center;
+    grid-column: 1/3;
+    margin: 0 25rem 0 25rem;
+  }
+
+  /* Home Page */
+  .art-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem;
+  }
+  
+  .article-img {
+    grid-column: 1/2;
+    margin: 3rem;
+    border-radius: 10px;
+  }
+  
+  .article {
+    width: 30rem;
+    grid-column: 2/3;
+    padding-top: 2rem;
+    padding-right: 10rem;
+  }
+
+  /* services & missionary  */
+  .servicesContainer {
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 4rem 0 4rem 0;
+  }
+
+  .servicesImg {
+    width: 50rem;
+  }
+
+  /* contact us */
+  .applicant {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .applicant-title {
+    padding: 2rem 0 1rem 0;
+  }
+
+  label {
+    padding: 1rem;
+  }
+
+  form label.applied textarea {
+    width: 40rem;
+  }
+
+  .info-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-box {
+    margin: 1rem 4rem 1rem 4rem;
+  }
+
+  .map {
+    width: 90%;
+    margin: 3rem 3rem 3rem 0;
+  }
+
+  .container {
+    margin: 3rem 5rem 3rem 5rem;
+  }
+
+  /* reservation */
+
+  .hotel {
+    width: 85%;
+    margin-left: 1rem;
+  }
+
+  .reservation-box {
+    margin: 3rem 13rem 3rem 13rem;
+    padding-right: 1rem;
+  }
+
+  .register {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #fname {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  #lname {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  #email {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  #phone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  
+  #locate {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 1rem;
+  }
+
+  /* response */
+  .response-box {
+  margin: 3rem 15rem;
+}
+
+
+}

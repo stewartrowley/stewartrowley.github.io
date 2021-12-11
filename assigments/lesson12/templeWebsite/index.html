@@ -9,14 +9,21 @@
     <link rel="stylesheet" href="css/mediaQuery/medium.css">
     <link rel="stylesheet" href="css/mediaQuery/large.css">
     <script src="js/homepage/script.js" defer></script> 
-    <title>Document</title>
+    <title>Home</title>
 
 </head>
 <main>
     <header>
         <nav>
+            <div class="logoTitle">
+                <img class="logo" src="images/pocatello_idaho_temple_icon.jpg" alt="logo">
+                <h1 class="title">Temple Inn & Suites</h1>
+            </div>
             <ul class="navigation">
-                <li class="direction"><a href="#">Menu</a></li>
+                <div class="rnav">
+                    <li class="direction"><a href="#"><img src="https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png"/></a></li>
+
+                </div>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="html/temple.html">Temple</a></li>
                 <li><a href="html/reservation.html">Reservation</a></li>
@@ -27,14 +34,27 @@
     </header>
     
     <body>
-        <h1>Welcome to the Temple Inn & Suites</h1>
-        <div>
-            <p>Join us in a cozy nights stay.</p>
-            <a href="html/reservation.html">Reserve Today</a>
+        <h1 id="welcome">Welcome to the Temple Inn & Suites!</h1>
+        <div class="call-to-action">
+            <div class="action">
+                <p class="cozy">Join us in a cozy nights stay.</p>
+                <a class="reserve" href="html/reservation.html">Reserve Today</a>
+            </div>
+            <img class="banner-img" src="images/temples/columbiaRiverBanner.jpg" alt="">
         </div>
-        <div>
-            <img src="images/temples/rexburgTempleHome.jpeg" alt="">
-            <p>summary information about the temple of your choosing</p>    
+        <div class="art-container">
+            <img class="article-img" src="images/temples/rexburgTempleHome.jpeg" alt="">
+            <div class="article-rex">
+                <h1 class="headrex">Rexburg Temple Facts</h1>
+                <p class="article">"While most temple groundbreakings are limited to invited guests, the groundbreaking ceremony for the Rexburg Idaho Temple was open to any and all who desired to attend. Over 8,000 people crowded on the field where the temple now stands.
+                                The Rexburg Idaho Temple features beautiful ordinance room murals by Rexburg artist Leon Parson, reflecting the wildlife and landscapes of the Upper Snake River Valley. Parson was the 2010 recipient of the Eliza R. Snow Award.
+                                A wheat motif, created by Utah artist Tom Holdman, is used throughout the Rexburg Idaho Temple including most of the 700 art-glass windowpanes. The wheat stalk symbolizes the widespread agricultural industry in the area.
+                                The finest materials were used for this House of the Lord including wood imported from Africa and stone and tile from Israel.
+
+                                The exterior walls of the Rexburg Idaho Temple are made of 637 precast panels from 45 different molds, including the retaining wall. 
+                    The material is called China White—a white quartz finish (mined in Washington state) on concrete panels."
+                </p>
+            </div> 
         </div>
     </body>
     
